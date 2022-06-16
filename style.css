@@ -1,0 +1,134 @@
+    body{
+		margin: auto;
+	}
+	nav{
+        position: absolute;
+		z-index: 10;
+	}
+	nav ul{
+		list-style: none;
+		margin: 0;
+		margin-bottom: 40px;
+		margin-top: 20px;
+		padding: 50;
+	}
+	nav ul li{
+		text-align: left;
+		float: inherit;
+		line-height: 50px;
+	}
+	nav ul li a{
+		width: 100px;
+		color: #fff;
+		font-size: 20px;
+		font-weight: 600;
+		font-family: 'Baskervville', serif;
+		display: block;
+        text-decoration: none;
+		
+	}
+	nav ul li a:hover,nav ul li a:visited{
+		text-decoration: none;
+		color: #fff;
+		filter: opacity(0.5)
+	}
+	.words{font-size: 40px;
+			letter-spacing: 10px;
+			position: absolute;
+			top:50%;
+			left: 30%;}
+	.imgw{position: relative;}
+.p1{
+	margin-left: 1100px;
+    text-align:text start;
+    font-size: 38pt;
+    color: #fff;
+	font-family: 'Baskervville', serif;
+	margin-bottom: 100px;
+	margin-top: 20px;
+	justify-content: flex-end;
+	width: 550px;
+}
+.p2{
+    text-align:text right;
+    font-size: 20pt;
+    color: #fff;
+	font-family: 'Baskervville', serif;
+	margin-bottom: 240px;
+}
+.p3 a{
+	margin-left: 1580px;
+	justify-content: end;
+	position: end;
+	text-align:text end;
+    font-size: 12pt;
+    color: #fff;
+	font-family: 'Baskervville', serif;
+	text-decoration: none;
+	
+}
+.p4 a{
+	margin-left: 1580px;
+	justify-content: end;
+	position: end;
+	text-align:text end;
+    font-size: 12pt;
+    color: #fff;
+	font-family: 'Baskervville', serif;
+	text-decoration: none;
+}
+.p3 a:hover{
+	filter: opacity(0.5)
+}
+.p4 a:hover{
+	filter: opacity(0.5)
+}
+.imgw1{position: relative;}
+.container .txt{
+	position: start;
+	width: 580px;
+	margin: auto;
+	box-sizing: border-box;
+	text-align: start;
+	color: #fff;
+	font-size: 13pt;
+	font-family: 'Baskervville', serif;
+}
+.container .txt1 a{
+	width: 500px;
+		color: #fff;
+		font-size: 20px;
+		font-weight: 600;
+		font-family: 'Baskervville', serif;
+		display: block;
+        text-decoration: none;
+}
+.container .txt1 a:hover{
+	filter: opacity(0.5)
+}
+.music{
+	margin-top: 10px;
+    margin-left: 40px;	
+}
+.card{
+	color: sienna;
+}
+.list-group{
+	color: sienna;
+}
+.card .card-text{
+	font-size: 10pxs;
+}
+.Actor{
+	margin-left: 40px;
+}	
+.book{
+	position: start;
+	width: 50px;
+	margin-right: 20px;
+	filter: grayscale(1) blur(5px);
+	transition: all 3s;
+}
+.book:hover{
+	filter: grayscale(0) blur(0);
+}
